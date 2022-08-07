@@ -1,0 +1,334 @@
+﻿/*
+Template name: The Hobbit
+Template URI: http://templates.arcsin.se/the-hobbit-website-template/
+Release date: 2006-10-11
+Description: Arcsin's submission for OWD template contest "Favourite Book".
+Author: Viktor Persson
+Author URI: http://arcsin.se/
+
+Header image artwork “An Unexpected Morning Visit” by Ted Nasmith (© Harper Collins and Ted Nasmith). 
+
+This template is licensed under a Creative Commons Attribution 2.5 License:
+http://templates.arcsin.se/license/
+*/
+
+
+/* standard elements */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #36C;
+}
+
+ul {
+	font-size: 12px;
+}
+
+a:hover {
+	color: #06F;
+}
+
+img,
+a {
+	border: none, outline: none;
+}
+
+body {
+	background: #4E5D3C url(img/bg.jpg);
+	color: #444;
+	font: normal 62.5% "Lucida Sans Unicode", sans-serif;
+	margin: 0;
+	border: 0px;
+	padding: 0 126px;
+}
+
+p,
+ul {
+	margin-bottom: 1.2em;
+}
+
+p {
+	font-size: 14px;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 16px;
+	margin-bottom: 0.4em;
+	margin-top: 0.4em;
+}
+
+h2 {
+	font: bold 1em Verdana, serif;
+	margin: 3px 0 1px;
+}
+
+ul {
+	margin-left: 1.8em;
+}
+
+.quote {
+	width: 650px;
+}
+
+date {
+	color: #666;
+	font: 12px serif;
+	text-align: right;
+	padding-right: 25px;
+	display: block;
+	margin-bottom: 25px;
+}
+
+blockquote {
+	background: url(img/quote.gif) no-repeat;
+	color: #555;
+	padding-left: 22px;
+}
+
+blockquote p {
+	padding: 6px;
+	margin-bottom: 0px;
+	font: 16px;
+}
+
+blockquote a {
+	color: blue;
+	cursor: pointer;
+}
+
+
+/* misc */
+
+.clearer {
+	clear: both;
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	height: 0;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+img.left {
+	margin: 0 18px 6px 0;
+}
+
+.divider {
+	background: url(img/divider.gif) no-repeat center;
+	height: 20px;
+	margin-top: 24px;
+}
+
+
+/* structure */
+.deal {
+	position: relative;
+    left: -123px;
+}
+
+.container {
+	background: url(img/bgcontainer.jpg) repeat-y center top;
+	margin: 0 auto;
+	width: 936px;
+}
+
+.gfx {
+	float: left;
+	height: 140px;
+	margin-top: 12px;
+	width: 52px;
+}
+
+.top {
+	background: url(img/bgcontent.gif) no-repeat 0 -4%;
+	float: left;
+	text-align: center;
+	width: 832px;
+}
+
+.header {
+	background: #56644A url(img/header.jpg) no-repeat;
+	color: #FFC;
+	font-size: 1.4em;
+	height: 326px;
+	overflow: hidden;
+}
+
+.review {
+	width: 300px;
+	height: 120px;
+	margin-top: 190px;
+	margin-left: 52px;
+}
+
+.gallery-slide {
+	float: right;
+	width: 410px;
+	height: 306px;
+	margin-top: 7px;
+	margin-right: 6px;
+	padding: 4px 4px 4px 4px;
+}
+
+.header h1 {
+	font: normal 3.2em serif, sans-serif;
+	padding: 62px 0 34px 0;
+}
+
+.pattern {
+	background: #334127 url(img/pattern.gif) repeat-x;
+	height: 12px;
+}
+
+
+/* navigation */
+
+.navigation {
+	margin: 0 24px;
+}
+
+.navigation a {
+	color: #6C7151;
+	font: normal 2.0em serif;
+	line-height: 50px;
+	margin: 0 15px;
+	text-decoration: none;
+}
+
+.navigation a:hover,
+.navigation #selected {
+	color: #2C3111;
+}
+
+.navigation #bookin {
+	color: #990000;
+}
+
+.navigation-bottom a {
+	font: bold 1.4em Arial;
+	text-decoration: none;
+	margin-right: 30px;
+	color: #6C7151;
+}
+
+.navigation-bottom a:hover {
+	color: #2C3111;
+}
+
+
+/* content */
+
+.content {
+	background: url(img/bgcontent.gif) no-repeat;
+	clear: both;
+	font-size: 1.2em;
+	margin: 0 52px;
+	padding: 0 38px 12px;
+}
+
+.content .spacer {
+	height: 42px;
+}
+
+
+/* content item */
+
+.item {
+	clear: both;
+}
+
+.item img {
+	border: 1px dashed #8A6;
+}
+
+.item .title {
+	color: #445044;
+	font: normal 2em serif;
+}
+
+.item .title:first-letter {
+	display: block;
+	margin-right: -2px;
+	padding-left: 20px;
+	vertical-align: middle;
+	float: none;
+	font-size: 1.8em;
+}
+
+.item .metadata {
+	color: #666;
+	font-size: 0.9em;
+	padding: 0 0 6px 4px;
+}
+
+.item .body {
+	clear: both;
+}
+
+
+/* footer */
+
+.footer {
+	background: url(img/bgfooter.gif) no-repeat;
+	color: #666;
+	font-size: 1.1em;
+	line-height: 40px;
+	margin: 0 auto;
+	text-align: center;
+	width: 832px;
+}
+
+.footer .left {
+	padding-left: 40px;
+}
+
+.footer .right {
+	padding-right: 40px;
+}
+
+.footer a {
+	color: #666;
+	text-decoration: none;
+}
+
+.footer a:hover,
+.footer .right a:hover {
+	color: #333;
+	text-decoration: underline;
+}
+
+.footer .right,
+.footer .right a {
+	color: #ACAF9B;
+}
+
+.alert {
+	width: 356px;
+    background: #fda5a5;
+    border: 1px solid #d88282;
+    border-radius: 3px;
+    padding: 0px 0 0 36px;
+    color: #d45b5b;
+    font-size: 14px;
+    margin: 16px 0;
+    line-height: 33px;
+    position: relative;
+}
+
+.icon-alert {
+    font-size: 23px;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
